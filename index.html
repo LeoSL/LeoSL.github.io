@@ -2,13 +2,81 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="./assets/imgs/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./assets/imgs/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
                            integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
                            crossorigin="anonymous">
     <title>LeoSL - Software Developer</title>
   </head>
   <body>
-   <h1>Portfolio!</h1>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">
+        <img src="./assets/imgs/logo.png" alt="LeoSL logo" width="100" height="100%">
+      </a>
+      <!-- Responsiviness -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- end -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a id="home-menu-js" class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a id="about-menu-js" class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a id="work-menu-js" class="nav-link" href="#">Work</a>
+          </li>
+        </ul>
+        <span class="navbar-text">
+          <strong>LeoSL</strong> | Front-end Developer
+        </span>
+      </div>
+    </nav>
+    <div id="main-image" class="backgroung-img">
+      <div class="description-card">
+        <header class="container">
+          <div class="row">
+            <div class="col-lg-5">
+              <div class="heading-cover">
+                <h1>Leonardo Lima</h1>
+                Software Developer <strong>&&</strong>
+                <p>JavaScript afficionate</p>
+                <p>
+                  Linkedin | Github | Twitter
+                </p>
+              </div>
+            </div>
+          </div>
+        </header>
+      </div>
+    </div>
+    <!-- <img id="main-image" class="visible" src="./assets/imgs/coding.png" alt="LeoSL coding" width="100%" height="100%"> -->
+
+    <div id="about" class="container" hidden="true">
+      <div class="row col-12">
+        <h1>Leonardo Lima</h1>
+      </div>
+      <div class="row col-6">
+        <p>A Brazilian developer, graduated Journalist and a Design enthusiast!</p>
+      </div>
+    </div>
+
+    <!-- Bootstrap JS rendering -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+      crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
+      crossorigin="anonymous"></script>
+
+    <!-- Site JS files -->
+    <script src="./assets/javascript/main.js" type="text/javascript"></script>
   </body>
 </html>
