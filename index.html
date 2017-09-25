@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="shortcut icon" href="./assets/imgs/favicon.ico" type="image/x-icon">
     <link rel="icon" href="./assets/imgs/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
                            integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
                            crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>LeoSL - Software Developer</title>
   </head>
   <body>
@@ -39,17 +39,21 @@
         </span>
       </div>
     </nav>
-    <div id="main-image" class="backgroung-img">
+
+    <div id="home" class="backgroung-img visible">
       <div class="description-card">
         <header class="container">
           <div class="row">
             <div class="col-lg-5">
               <div class="heading-cover">
                 <h1>Leonardo Lima</h1>
-                Software Developer <strong>&&</strong>
-                <p>JavaScript afficionate</p>
+                Software Developer <strong>&&</strong></br>
+                JavaScript afficionate <strong>&&</strong>
+                <p>UI/UX advocate</p>
                 <p>
-                  Linkedin | Github | Twitter
+                  <a href="https://www.linkedin.com/in/leosilvalima/" target="_blank">Linkedin</a> &diams;
+                  <a href="https://github.com/LeoSL" target="_blank">Github</a> &diams;
+                  <a href="https://twitter.com/leocavia" target="_blank">Twitter</a>
                 </p>
               </div>
             </div>
@@ -57,14 +61,66 @@
         </header>
       </div>
     </div>
-    <!-- <img id="main-image" class="visible" src="./assets/imgs/coding.png" alt="LeoSL coding" width="100%" height="100%"> -->
 
-    <div id="about" class="container" hidden="true">
-      <div class="row col-12">
-        <h1>Leonardo Lima</h1>
+    <div id="about" class="container-fluid hidden">
+      <div class="row">
+        <div class="col-1"></div>
+        <div class="col-4">
+          <img src="./assets/imgs/conference_with_hands.png" alt="speaking at TDC Conference" width="100%" height="100%">
+        </div>
+        <div class="col-4 text-right">
+          <h1>Leonardo,</h1>
+          <p>A Brazilian developer, graduated Journalist and a Design enthusiast! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div class="col-3"></div>
       </div>
-      <div class="row col-6">
-        <p>A Brazilian developer, graduated Journalist and a Design enthusiast!</p>
+    </div>
+
+    <div id="work" class="container hidden">
+      <div class="row">
+        <img src="./assets/imgs/work.png" alt="working with github marks" width="100%" height="100%">
+      </div>
+      <hr>
+      <div class="row justify-content-center">
+        <div class="card col-3 work-card">
+          <span height="200px"><img class="card-img-top" src="./assets/imgs/rd-mkt-place.png" alt="Card image cap" width="100%"></span>
+          <div class="card-body">
+            <h4 class="card-title">RD Station | Marketplace</h4>
+            <p class="card-text">
+              Integrate apps and search for the best Digital Marketing professionals
+            </p>
+            <ul>
+              <li>Ruby On Rails</li>
+              <li>Node JSON Server</li>
+              <li>jQuery</li>
+            </ul>
+            <a href="#" class="btn btn-primary grey-btn" target="_blank">Visit</a>
+          </div>
+        </div>
+        <div class="card col-3 work-card">
+          <img class="card-img-top" src="./assets/imgs/trakinas.png" alt="Card image cap" width="100%">
+          <div class="card-body">
+            <h4 class="card-title">Bizcoito/Trakinas</h4>
+            <p class="card-text">React app which makes real-time requests to Google Books API</p>
+            <ul>
+              <li>React</li>
+              <li>JSX</li>
+            </ul>
+            <a href="#" class="btn btn-primary grey-btn">Github</a>
+          </div>
+        </div>
+        <div class="card col-3 work-card">
+          <img class="card-img-top" src="https://media.giphy.com/media/3ohhwfxPHRwmX8boT6/giphy.gif" alt="Card image cap" width="100%">
+          <div class="card-body">
+            <h4 class="card-title">Hook Experiments</h4>
+            <p class="card-text">User Retention / Habit formation experiments inside <a href="https://rdstation.com">RD Station</a> platform</p>
+            <ul>
+              <li>Ruby on Rails</li>
+              <li>ES6 - Pure JavaScript</li>
+            </ul>
+            <a href="https://rdstation.com" class="btn btn-primary grey-btn" target="_blank">Visit</a>
+          </div>
+        </div>
       </div>
     </div>
 

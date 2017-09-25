@@ -1,4 +1,24 @@
+h1 {
+    font-size: 4.5rem;
+}
+
+a {
+  color: grey;
+}
+
+.work-card {
+  padding: 0px;
+  margin: 15px;
+}
+
+.grey-btn {
+  color: white;
+  background-color: grey;
+  border-color: white;
+}
+
 .hidden {
+  display: none;
   visibility: hidden;
   opacity: 0;
   transition: visibility 0s 1s, opacity 1s linear;

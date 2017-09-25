@@ -1,29 +1,30 @@
-function hideMainImg() {
-  var mainImage = document.getElementById('main-image');
-  if (mainImage.classList[0] === 'visible') {
-    mainImage.className = 'hidden';
-  }
+function toggle(element, from, to) {
+  var mainImage = document.getElementById(element);
+  mainImage.className = mainImage.className.replace(from, to);
 };
 
-function showMainImage() {
-  var mainImage = document.getElementById('main-image');
-  if (mainImage.classList[0] === 'hidden') {
-    mainImage.className = 'visible';
-  }
+function showHome() {
+  toggle('home', 'hidden', 'visible');
+  toggle('about', 'visible', 'hidden');
+  toggle('work', 'visible', 'hidden');
 };
 
-function handleAboutMenu() {
-  hideMainImg();
+function showAbout() {
+  toggle('about', 'hidden', 'visible');
+  toggle('home', 'visible', 'hidden');
+  toggle('work', 'visible', 'hidden');
 };
 
-function handleWorkMenu() {
-  hideMainImg();
+function showWork() {
+  toggle('work', 'hidden', 'visible');
+  toggle('about', 'visible', 'hidden');
+  toggle('home', 'visible', 'hidden');
 }
 
 function init() {
-  document.getElementById('about-menu-js').onclick = handleAboutMenu;
-  document.getElementById('work-menu-js').onclick = handleWorkMenu;
-  document.getElementById('home-menu-js').onclick = showMainImage;
+  document.getElementById('about-menu-js').onclick = showAbout;
+  document.getElementById('work-menu-js').onclick = showWork;
+  document.getElementById('home-menu-js').onclick = showHome;
 };
 
 window.onload = init;
