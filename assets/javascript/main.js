@@ -36,6 +36,7 @@ function init() {
   document.getElementById('about-menu-js').onclick = showAbout;
   document.getElementById('work-menu-js').onclick = showWork;
   document.getElementById('home-menu-js').onclick = showHome;
+  document.getElementById('logo-menu-js').onclick = showHome;
 }
 
 window.onload = init;
