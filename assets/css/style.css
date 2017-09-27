@@ -11,6 +11,11 @@ a {
   margin: 15px;
 }
 
+.work-card-img {
+  height: 150px;
+  background-color: #dcdcdc;
+}
+
 .grey-btn {
   color: white;
   background-color: grey;
