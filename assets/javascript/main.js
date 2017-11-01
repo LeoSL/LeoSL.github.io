@@ -34,6 +34,7 @@ function initializeGandalfPopover() {
 function init() {
   initializeGandalfPopover();
   document.getElementById('about-menu-js').onclick = showAbout;
+  document.getElementById('main-title-js').onclick = showAbout;
   document.getElementById('work-menu-js').onclick = showWork;
   document.getElementById('home-menu-js').onclick = showHome;
   document.getElementById('logo-menu-js').onclick = showHome;
