@@ -1,5 +1,5 @@
 h1 {
-    font-size: 56px;
+  font-size: 56px;
 }
 
 a {
@@ -7,7 +7,7 @@ a {
 }
 
 .work-card {
-  padding: 0px;
+  padding: 0;
   margin: 15px;
 }
 
@@ -41,7 +41,7 @@ a {
 }
 
 .backgroung-img {
-  background-image: url('../imgs/coding.png');
+  background-image: url(../imgs/coding.png);
   background-size: 100%;
   opacity: 0.85;
 }
@@ -53,6 +53,19 @@ a {
   padding: 15px 15px 15px 30px;
 }
 
-.main-home-title {
+.cursor-pointer {
   cursor: pointer;
+}
+
+.home-social-media-links {
+  display: inline;
+  margin-left: 5px;
+}
+
+.gandalf-link {
+  text-decoration: underline;
+}
+
+.social-media-icons-big {
+  font-size: 25px
 }
