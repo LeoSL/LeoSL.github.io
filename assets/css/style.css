@@ -9,10 +9,11 @@ a {
 .work-card {
   padding: 0;
   margin: 15px;
+  width: 650px;
 }
 
 .work-card-img {
-  max-width: 100%;
+  width: 100%;
 }
 
 .work-card-header {
@@ -42,6 +43,7 @@ a {
 
 .backgroung-img {
   background-image: url(../imgs/coding.png);
+  background-repeat: no-repeat;
   background-size: 100%;
   opacity: 0.85;
 }
