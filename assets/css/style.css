@@ -44,11 +44,22 @@ a {
   opacity: 0.85;
 }
 
-.heading-cover {
-  margin-top: 100px;
-  margin-bottom: 500px;
+.headings-cover {
+  padding-top: 100px;
+  padding-bottom: 500px;
+}
+
+.white-box {
   background-color: white;
   padding: 15px 15px 15px 30px;
+  text-align: center;
+}
+
+.black-box {
+  background-color: black;
+  padding: 2em;
+  color: white;
+  font-weight: lighter;
 }
 
 .cursor-pointer {
