@@ -2,6 +2,9 @@ const PageObjects = {
   mainTitle: {
     menu: document.getElementById('main-title-js')
   },
+  descriptionLink: {
+    menu: document.getElementById('description-link-js')
+  },
   about: {
     menu: document.getElementById('about-menu-js'),
     description: document.getElementById('about')
@@ -66,6 +69,7 @@ const Main = {
   init: function init() {
     Main.initializeGandalfPopover();
     PageObjects.mainTitle.menu.onclick = Main.showAbout;
+    PageObjects.descriptionLink.menu.onclick = Main.showAbout;
     PageObjects.about.menu.onclick = Main.showAbout;
     PageObjects.work.menu.onclick = Main.showWork;
     PageObjects.home.menu.onclick = Main.showHome;

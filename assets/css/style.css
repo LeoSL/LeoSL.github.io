@@ -44,11 +44,30 @@ a {
   opacity: 0.85;
 }
 
-.heading-cover {
-  margin-top: 100px;
-  margin-bottom: 500px;
+.headings-cover {
+  padding-top: 100px;
+  padding-bottom: 500px;
+}
+
+.white-box {
   background-color: white;
-  padding: 15px 15px 15px 30px;
+  padding: 1em 1em;
+  margin-bottom: 2em;
+}
+
+.black-box {
+  background-color: black;
+  color: white;
+  font-weight: lighter;
+  font-size: smaller;
+}
+
+.central-content {
+  text-align: center;
+}
+
+.terminal-gif {
+  width: inherit;
 }
 
 .cursor-pointer {
