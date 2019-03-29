@@ -51,15 +51,23 @@ a {
 
 .white-box {
   background-color: white;
-  padding: 15px 15px 15px 30px;
-  text-align: center;
+  padding: 1em 1em;
+  margin-bottom: 2em;
 }
 
 .black-box {
   background-color: black;
-  padding: 2em;
   color: white;
   font-weight: lighter;
+  font-size: smaller;
+}
+
+.central-content {
+  text-align: center;
+}
+
+.terminal-gif {
+  width: inherit;
 }
 
 .cursor-pointer {
